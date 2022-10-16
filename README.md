@@ -1,1 +1,1 @@
-# Apollo Federation 2 with Python Micro services
+# Apollo Federation with Python Micro services
