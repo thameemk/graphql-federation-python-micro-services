@@ -1,6 +1,8 @@
-import {ApolloGateway} from "@apollo/gateway";
-import {startStandaloneServer} from "@apollo/server/standalone";
-import {ApolloServer} from "apollo-server";
+import {ApolloServer} from '@apollo/server';
+import {startStandaloneServer} from '@apollo/server/standalone';
+import {ApolloGateway} from '@apollo/gateway';
+
+// Initialize an ApolloGateway instance and pass it
 
 const gateway = new ApolloGateway({
     serviceList: [
@@ -9,15 +11,13 @@ const gateway = new ApolloGateway({
     ]
 });
 
+// Pass the ApolloGateway to the ApolloServer constructor
 
-async function startApolloServer() {
-  const server = new ApolloServer({ typeDefs, resolvers });
-  const { url } = await startStandaloneServer(server, {
-    context: async ({ req }) => ({ token: req.headers.token }),
-    listen: { port: 4000 },
-  });
+const server = new ApolloServer({
+    gateway,
+});
 
-  console.log(`🚀  Server ready at ${url}`);
-}
 
-startApolloServer()
+// Note the top-level `await`!
+const {url} = await startStandaloneServer(server);
+console.log(`🚀  Server ready at ${url}`);
