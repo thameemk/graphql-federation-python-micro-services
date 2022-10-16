@@ -6,9 +6,9 @@
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
     </envs>
-    <option name="SDK_HOME" value="$PROJECT_DIR$/../Virtuals/apollo-federation-2/bin/python" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/falcon-app-2" />
-    <option name="IS_MODULE_SDK" value="false" />
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-app-2" />
+    <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -22,7 +22,7 @@
         <ENTRY IS_ENABLED="true" PARSER="runconfig" />
       </ENTRIES>
     </EXTENSION>
-    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Virtuals/apollo-federation-2/bin/gunicorn" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Virtuals/apollo-federation-python-micro-services/bin/gunicorn" />
     <option name="PARAMETERS" value="apps:app --bind localhost:8901 -t=600" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
