@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Apollo Server" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/apollo-gateway">
+    <method v="2" />
+  </configuration>
+</component>

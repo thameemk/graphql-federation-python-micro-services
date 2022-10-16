@@ -5,8 +5,8 @@
       <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$/falcon-app-2" />
-            <path value="file://$PROJECT_DIR$/falcon-app-1" />
+            <path value="file://$PROJECT_DIR$/python-app-2" />
+            <path value="file://$PROJECT_DIR$/python-app-1" />
           </resourceRoots>
         </entryData>
       </entry>
