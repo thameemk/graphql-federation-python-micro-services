@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/apollo-federation-2-python-micro-services.iml" filepath="$PROJECT_DIR$/.idea/apollo-federation-2-python-micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/apollo-federation-python-micro-services.iml" filepath="$PROJECT_DIR$/.idea/apollo-federation-python-micro-services.iml" />
     </modules>
   </component>
 </project>
