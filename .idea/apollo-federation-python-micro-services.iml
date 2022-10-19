@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/python-app-2" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (apollo-federation-python-micro-services)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (python-app-1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
