@@ -1,2 +1,4 @@
 
 /apollo-gateway/node_modules/*
+
+.run/*.xml
