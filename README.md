@@ -1,4 +1,4 @@
-# GraphQL Federation with Python Micro services
+# GraphQL Federation - Python Micro services
 
 Demonstration of federated GraphQL microservices using Python and Apollo federation.
 
